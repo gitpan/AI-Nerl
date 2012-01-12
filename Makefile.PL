@@ -20,10 +20,12 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "AI::Nerl",
   "PREREQ_PM" => {
+    "ExtUtils::MakeMaker" => 0,
+    "Modern::Perl" => 0,
     "Moose" => 0,
     "PDL" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }

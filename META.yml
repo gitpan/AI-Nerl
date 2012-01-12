@@ -13,6 +13,8 @@ meta-spec:
   version: 1.4
 name: AI-Nerl
 requires:
+  ExtUtils::MakeMaker: 0
+  Modern::Perl: 0
   Moose: 0
   PDL: 0
-version: 0.02
+version: 0.03
